@@ -36,6 +36,7 @@ h1 {
   font-size: 180px;
   padding: 0px;
   margin: 0px;
+  font-family: serif;
 }
 
 .card > div:nth-child(3) h1 {
@@ -62,4 +63,49 @@ h1 {
 
 .type-clubs {
   color: black;
+}
+
+.boton {
+  display: flex;
+  width: 100px;
+  height: 570px;
+}
+
+#boton {
+  display: flex;
+  width: 100px;
+  height: 70px;
+  border-radius: 10px;
+  padding: 8px 8px;
+  font-style: italic;
+  font-weight: bold;
+  background-color: white;
+}
+
+.boton-div {
+  width: 245px;
+  height: 50%;
+  margin-left: 5px;
+}
+
+#botonTemp {
+  display: flex;
+  border-radius: 10px;
+  padding: 8px 8px;
+  font-style: italic;
+  font-weight: bold;
+  background-color: white;
+}
+
+#botonSize {
+  display: flex;
+  border-radius: 10px;
+  padding: 8px 8px;
+  font-style: italic;
+  font-weight: bold;
+  background-color: white;
+}
+
+label {
+  display: flex;
 }

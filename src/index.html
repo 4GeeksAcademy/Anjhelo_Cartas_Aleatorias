@@ -13,10 +13,52 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="card">
+    <div class="card" id="carta">
       <div class="type"><h1>♣</h1></div>
-      <div class="card-number"><h1>1</h1></div>
+      <div class="card-number"><h1 id="number">1</h1></div>
       <div class="type"><h1>♣</h1></div>
+    </div>
+    <div class="boton-div">
+      <button class="btn btn-light" id="boton">Generar Carta</button>
+      <hr />
+      <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label text-light mt-2"
+          >Temporizador</label
+        >
+        <input
+          type="text"
+          class="form-control"
+          id="inputTiempo"
+          placeholder="Ingrese el tiempo en segundos"
+        />
+        <button type="submit" id="botonTemp" class="btn btn-light mt-1">
+          Enviar
+        </button>
+        <hr />
+        <div class="mb-3">
+          <label class="form-label text-light mt-2">Modificar Height y Width</label>
+          <label for="formGroupExampleInput" class="form-label text-light mt-2"
+            >Height</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="inputHeight"
+            placeholder="Ingrese en pixeles"
+          />
+          <label for="formGroupExampleInput" class="form-label text-light mt-2"
+            >Width</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="inputWidth"
+            placeholder="Ingrese en pixeles"
+          />
+          <button type="submit" id="botonSize" class="btn btn-light mt-1">
+            Enviar
+          </button>
+      </div>
     </div>
   </body>
 </html>
